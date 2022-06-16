@@ -2,11 +2,11 @@ main = "index.js"
 compatibility_date = "2022-05-25"
 
 [env.dev]
-name = "kanye-rest-dev"
+name = "chiquito-rest-dev"
 workers_dev = true
 
 [env.production]
-name = "kanye-rest"
+name = "chiquito"
 workers_dev = false
 minify = true
-route = "api.kanye.rest/*"
+route = "api.chiquito.rest/*"
