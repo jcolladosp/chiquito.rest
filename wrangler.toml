@@ -9,4 +9,4 @@ workers_dev = true
 name = "chiquito"
 workers_dev = false
 minify = true
-route = "api.chiquito.ws/*"
+route = "api.chiquito.rest/*"

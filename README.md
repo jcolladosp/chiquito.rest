@@ -1,4 +1,4 @@
-# [chiquito.ws](https://chiquito.ws)
+# [chiquito.rest](https://chiquito.rest)
 
 A free REST API for random [Chiquito de la Calzada](https://es.wikipedia.org/wiki/Chiquito_de_la_Calzada) quotes (Chiquito as a Service).
 
@@ -10,7 +10,7 @@ Quotes from: https://github.com/atareao/chiquito/
 
 ## Usage
 
-### `GET` [https://api.chiquito.ws](https://api.chiquito.ws)
+### `GET` [https://api.chiquito.rest](https://api.chiquito.rest)
 
 ```json
 {
@@ -20,7 +20,7 @@ Quotes from: https://github.com/atareao/chiquito/
 
 or
 
-### `GET` [https://api.chiquito.ws/text](https://api.chiquito.ws/text)
+### `GET` [https://api.chiquito.rest/text](https://api.chiquito.rest/text)
 
 ```text
 En vez del graduado escolar tenía una etiqueta de Anís del Mono
