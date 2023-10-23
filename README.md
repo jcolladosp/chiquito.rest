@@ -39,8 +39,10 @@ npx wrangler dev
 ```shell
 wrangler login
 
-wrangler publish --env production
+wrangler deploy --env production
 ```
+
+- Add custom domain in the worker: api.chiquito.rest
 
 ## License
 

@@ -9,6 +9,6 @@
     "publish": "wrangler publish"
   },
   "devDependencies": {
-    "wrangler": "2.0.12"
+    "wrangler": "^3.14.0"
   }
 }

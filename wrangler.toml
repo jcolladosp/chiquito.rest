@@ -6,7 +6,7 @@ name = "chiquito-rest-dev"
 workers_dev = true
 
 [env.production]
-name = "chiquito"
+name = "chiquito-rest"
 workers_dev = false
 minify = true
 route = "api.chiquito.rest/*"
