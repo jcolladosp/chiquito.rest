@@ -5,10 +5,19 @@
   "description": "API REST que proporciona citas y frases de Chiquito de la Calzada. (Chiquito as a Service)",
   "license": "MIT",
   "scripts": {
-    "start": "wrangler dev",
-    "publish": "wrangler publish"
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types"
   },
   "devDependencies": {
-    "wrangler": "^3.14.0"
+    "@cloudflare/vitest-pool-workers": "^0.1.0",
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "typescript": "^5.0.4",
+    "vitest": "1.3.0",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.4.2"
   }
 }

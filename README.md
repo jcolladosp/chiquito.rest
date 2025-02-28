@@ -14,7 +14,7 @@ Quotes from: https://github.com/atareao/chiquito/
 
 ```json
 {
-    "quote": "Sieteee caballo que vienennn de Bonanzaaarrlll."
+  "quote": "Sieteee caballo que vienennn de Bonanzaaarrlll."
 }
 ```
 
@@ -28,10 +28,8 @@ En vez del graduado escolar tenía una etiqueta de Anís del Mono
 
 ## Development
 
-Install [Wrangler](https://developers.cloudflare.com/workers/wrangler/get-started/#installation)
-
 ```shell
-npx wrangler dev
+pnpm dev
 ```
 
 ## Production
