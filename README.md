@@ -10,7 +10,7 @@ Quotes from: https://github.com/atareao/chiquito/
 
 ## Usage
 
-### `GET` [https://api.chiquito.rest](https://api.chiquito.rest)
+### `GET` [https://chiquito-rest.jcolladosp.workers.dev](https://chiquito-rest.jcolladosp.workers.dev)
 
 ```json
 {
@@ -20,7 +20,7 @@ Quotes from: https://github.com/atareao/chiquito/
 
 or
 
-### `GET` [https://api.chiquito.rest/text](https://api.chiquito.rest/text)
+### `GET` [https://chiquito-rest.jcolladosp.workers.dev/text](https://chiquito-rest.jcolladosp.workers.dev/text)
 
 ```text
 En vez del graduado escolar tenía una etiqueta de Anís del Mono
@@ -40,7 +40,7 @@ wrangler login
 wrangler deploy --env production
 ```
 
-- Add custom domain in the worker: api.chiquito.rest
+- Add custom domain in the worker: chiquito-rest.jcolladosp.workers.dev
 
 ## License
 
