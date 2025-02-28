@@ -2,6 +2,7 @@
 name = "chiquito-rest"
 main = "src/index.ts"
 
+compatibility_date = "2025-02-28"
+
 workers_dev = false
 minify = true
-route = "chiquito-rest.jcolladosp.workers.dev/*"
